@@ -1,0 +1,202 @@
+Python 3.6.0 (v3.6.0:41df79263a11, Dec 22 2016, 17:23:13) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment4/a4-solution.py 
+Enter the name of the file: bla.txt
+There is no file with that name. Try again.
+Enter the name of the file: lasjd
+There is no file with that name. Try again.
+Enter the name of the file: 33
+There is no file with that name. Try again.
+Enter the name of the file: net1.txt
+
+First general statistics about the social network:
+
+This social network has 10 people/users.
+In this social network the maximum number of friends that any one person has is 5.
+The average number of friends is 3.8.
+There are 3 people with 5 friends and here are their IDs: 1 2 8 
+
+I now pick a number at random. 
+That number is: 0. Let's see how many people has that many friends.
+There is 10 people with 0 or more friends
+
+There is nobody that knows everyone.
+
+We are now ready to recommend a friend for a user you specify.
+Enter an integer for a user ID:4
+For user with ID 4 we recommend the user with ID 2
+That is because users 4 and 2 have 2 common friends and
+user 4 does not have more common friends with anyone else.
+
+Finally, you showed interest in knowing common friends of some pairs of users.
+About 1st user ...
+Enter an integer for a user ID:2
+About 2st user ...
+Enter an integer for a user ID:twenty
+That was not an integer. Please try again.
+Enter an integer for a user ID:3.4
+That was not an integer. Please try again.
+Enter an integer for a user ID:4
+Here is the list of common friends of 2 and 4
+6 8 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+ RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment4/a4-solution.py 
+Enter the name of the file: net2.txt
+
+First general statistics about the social network:
+
+This social network has 10 people/users.
+In this social network the maximum number of friends that any one person has is 9.
+The average number of friends is 5.0.
+There are 1 people with 9 friends and here are their IDs: 0 
+
+I now pick a number at random. 
+That number is: 0. Let's see how many people has that many friends.
+There is 10 people with 0 or more friends
+
+There at least one person that knows everyone.
+
+We are now ready to recommend a friend for a user you specify.
+Enter an integer for a user ID: zero
+That was not an integer. Please try again.
+Enter an integer for a user ID:-10
+That user ID does not exist. Try again.
+Enter an integer for a user ID:52
+That user ID does not exist. Try again.
+Enter an integer for a user ID:4.5
+That was not an integer. Please try again.
+Enter an integer for a user ID:4
+For user with ID 4 we recommend the user with ID 2
+That is because users 4 and 2 have 3 common friends and
+user 4 does not have more common friends with anyone else.
+
+Finally, you showed interest in knowing common friends of some pairs of users.
+About 1st user ...
+Enter an integer for a user ID:1
+About 2st user ...
+Enter an integer for a user ID:2
+Here is the list of common friends of 1 and 2
+0 6 9 
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+ RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment4/a4-solution.py 
+Enter the name of the file: net3.txt
+
+First general statistics about the social network:
+
+This social network has 13 people/users.
+In this social network the maximum number of friends that any one person has is 9.
+The average number of friends is 4.153846153846154.
+There are 1 people with 9 friends and here are their IDs: 0 
+
+I now pick a number at random. 
+That number is: 2. Let's see how many people has that many friends.
+There is 11 people with 2 or more friends
+
+There is nobody that knows everyone.
+
+We are now ready to recommend a friend for a user you specify.
+Enter an integer for a user ID:0
+We have nobody to recommend for user with ID 0 since he/she is dominating in their connected component
+
+Finally, you showed interest in knowing common friends of some pairs of users.
+About 1st user ...
+Enter an integer for a user ID:0
+About 2st user ...
+Enter an integer for a user ID:112
+Here is the list of common friends of 0 and 112
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+ RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment4/a4-solution.py 
+Enter the name of the file: big.txt
+
+First general statistics about the social network:
+
+This social network has 1000 people/users.
+In this social network the maximum number of friends that any one person has is 347.
+The average number of friends is 19.78.
+There are 1 people with 347 friends and here are their IDs: 0 
+
+I now pick a number at random. 
+That number is: 238. Let's see how many people has that many friends.
+There is 1 people with 238 or more friends
+
+There is nobody that knows everyone.
+
+We are now ready to recommend a friend for a user you specify.
+Enter an integer for a user ID:20000
+That user ID does not exist. Try again.
+Enter an integer for a user ID:242
+For user with ID 242 we recommend the user with ID 196
+That is because users 242 and 196 have 11 common friends and
+user 242 does not have more common friends with anyone else.
+
+Finally, you showed interest in knowing common friends of some pairs of users.
+About 1st user ...
+Enter an integer for a user ID:242
+About 2st user ...
+Enter an integer for a user ID:196
+Here is the list of common friends of 242 and 196
+0 53 92 180 194 204 249 254 266 330 346 
+>>>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>>
+ RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment4/a4-solution.py 
+Enter the name of the file: huge.txt
+
+First general statistics about the social network:
+
+This social network has 4039 people/users.
+In this social network the maximum number of friends that any one person has is 1045.
+The average number of friends is 43.69101262688784.
+There are 1 people with 1045 friends and here are their IDs: 107 
+
+I now pick a number at random. 
+That number is: 913. Let's see how many people has that many friends.
+There is 1 people with 913 or more friends
+
+There is nobody that knows everyone.
+
+We are now ready to recommend a friend for a user you specify.
+Enter an integer for a user ID:5600
+That user ID does not exist. Try again.
+Enter an integer for a user ID:4039
+That user ID does not exist. Try again.
+Enter an integer for a user ID:4100
+That user ID does not exist. Try again.
+Enter an integer for a user ID:1045
+For user with ID 1045 we recommend the user with ID 1030
+That is because users 1045 and 1030 have 8 common friends and
+user 1045 does not have more common friends with anyone else.
+
+Finally, you showed interest in knowing common friends of some pairs of users.
+About 1st user ...
+Enter an integer for a user ID:1030
+About 2st user ...
+Enter an integer for a user ID:1045
+Here is the list of common friends of 1030 and 1045
+107 909 955 1043 1111 1197 1368 1788 
+>>> 
